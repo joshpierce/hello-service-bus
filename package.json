@@ -1,0 +1,23 @@
+{
+    "name": "hello-service-bus",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "sender": "tsc && node dist/sender.js",
+        "receiver": "tsc && node dist/receiver.js",
+        "topic-sender": "tsc && node dist/topic-sender.js",
+        "topic-receiver-1": "tsc && node dist/topic-receiver-1.js",
+        "topic-receiver-2": "tsc && node dist/topic-receiver-2.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@azure/service-bus": "^1.1.9",
+        "@types/dotenv": "^8.2.0",
+        "dotenv": "^8.2.0",
+        "flatted": "^3.0.4"
+    }
+}
